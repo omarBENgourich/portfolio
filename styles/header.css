@@ -1,10 +1,34 @@
 .header{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
     position: absolute;
     top: 0;
     right : 0;
     left: 0;
     height: 100px;
-    background-color: rgb(216, 216, 216);
-    box-shadow: 20px;
-
+    background-color: rgb(186, 186, 186);
+    cursor: pointer;
 }
+
+.link-to-other {
+    text-decoration: none;
+    color: white ;
+}
+
+.page-layouts {
+    font-size: 1rem ;
+    font-weight: bold;
+}
+
+.page-layouts:hover {
+    color: rgb(133, 133, 133);
+}
+
+
+
+
+
