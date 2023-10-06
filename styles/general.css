@@ -10,9 +10,27 @@
 }
 
 img {
-    width: 100%;
+    width: 200%;
     display: flex;
 
 }
 
-a
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Quicksand ,sans-serif;
+    background-color: black;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem  1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+

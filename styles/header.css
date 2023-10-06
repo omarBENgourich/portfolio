@@ -1,3 +1,55 @@
+.nav-logo {
+    max-width: 100px;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a{
+    position: relative;
+    padding-bottom: 0.75;
+    color: #ffffff;
+}
+
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ff4800;
+    transition: all 0.3s ease;
+}
+
+
+.link a:hover::after {
+    width: 70%;
+
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-style: none;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff4800;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: #c73800;
+}
+
 
 
 
